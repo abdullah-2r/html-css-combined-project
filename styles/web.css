@@ -42,6 +42,35 @@ text-align: left;
 .text-center {
       text-align: center;
 }
+.text-container {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      width: 671px;
+      margin: 0px auto;
+      padding-bottom: 34px;
+  }
+  .link-txt {
+      color: rgba(13, 19, 33, 1);
+
+font-family: "Azeret Mono";
+font-size: 11px;
+font-weight: 700;
+line-height: 13px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.img-title {
+      color: rgba(13, 19, 33, 1);
+
+font-family: "Azeret Mono";
+font-size: 17px;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
 /* -------------------------------------------------------- */
 nav {
       margin: 30px 106px;
@@ -198,23 +227,13 @@ border-radius: 16px;
       padding: 22px;
 }
 /* ---------------------------------------------- */
-   .skil-section {
-      margin-bottom: 78px;
-   }
 .skill-box-container {
       margin: 0px auto;
       display: flex;
       gap: 17px;
  
 }
- .text-container {
-      display: flex;
-      flex-direction: column;
-      gap: 17px;
-      width: 671px;
-      margin: 0px auto;
-      padding-bottom: 34px;
-  }
+ 
 .skill-box {
    padding: 28px;
 display: flex;
@@ -226,16 +245,7 @@ text-align: left;
 
 
 }
-.skill-box h4 {
-      color: rgba(13, 19, 33, 1);
 
-font-family: "Azeret Mono";
-font-size: 17px;
-font-weight: 800;
-line-height: 25px;
-letter-spacing: 0%;
-text-align: left;
-}
 .box-bg-html {
   border-radius: 16px;
 background: rgba(255, 76, 30, 0.05);
@@ -248,14 +258,33 @@ background: rgba(0, 76, 232, 0.05);
 border-radius: 16px;
 background: rgba(255, 223, 0, 0.05);
 }
-.link-txt {
-      color: rgba(13, 19, 33, 1);
 
-font-family: "Azeret Mono";
-font-size: 11px;
-font-weight: 700;
-line-height: 13px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+/* --------------------------------------------------------- */
+.lang-section {
+      margin-top: 78px;
+}
+.lang-container {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+}
+.lang-box {
+      display: flex;
+      gap: 17px;
+      align-items: center;
+      padding: 28px;
+      box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+}
+.lang-description {
+
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 17px;
+
+
 }
