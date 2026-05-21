@@ -4,6 +4,9 @@
       margin: 0;
       padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 /* -----------------------------Template Style-------------------------------- */
 .primary-font {
 font-family: "Azeret Mono", monospace;
@@ -289,7 +292,7 @@ gap: 17px;
 
 /* ------------------------------------------------------------------ */
 
-.support-section {
+#support-section {
       margin-top: 34px;
 background-image: url(../assets/handshake.jpg);
 border-radius: 16px;
@@ -308,7 +311,7 @@ padding: 45px 34px 45px 34px;
 
 
 }
-.support-section h3 {
+#support-section h3 {
       color: rgba(255, 255, 255, 1);
 
 font-family: "Azeret Mono";
@@ -318,7 +321,7 @@ line-height: 25px;
 letter-spacing: 0%;
 text-align: center;
 }
-.support-section p {
+#support-section p {
       color: rgba(255, 255, 255, 1);
     width: 430px;
 font-family: "Azeret Mono";
